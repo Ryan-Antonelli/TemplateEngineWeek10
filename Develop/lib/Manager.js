@@ -2,7 +2,7 @@
 const Employee = require("./Employee.js");
 
 class Manager extends Employee {
-  constructor(name, id, email, officenumber) {
+  constructor(name, id, email, officeNumber) {
     //inherited from Employee
     super(name, id, email);
     this.office = officeNumber;
