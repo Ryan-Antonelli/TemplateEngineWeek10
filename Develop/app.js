@@ -61,6 +61,7 @@ function menu() {
                     "Engineer",
                     "Intern",
                     "Done adding team members"
+                ]
             }
         ]).then(userSelect => {
                 switch(userSelect.memberSelect) {
